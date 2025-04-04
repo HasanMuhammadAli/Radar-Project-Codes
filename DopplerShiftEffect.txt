@@ -1,0 +1,17 @@
+Understanding the Doppler Shift Effect
+The Doppler effect is the change in frequency (or wavelength) of a wave due to the relative motion between the source and the observer.
+
+Doppler Effect in Radar Systems
+When an object moves towards a radar, the frequency of the received signal increases.
+
+When an object moves away from a radar, the frequency of the received signal decreases.
+
+For a radar system, the Doppler shift frequency is given by:
+𝑓doppler = (2 × 𝑣 × 𝑓transmit)/𝑐
+
+Where:
+
+𝑓doppler = Doppler frequency shift (Hz)
+𝑣 = Velocity of the moving object (m/s)
+𝑓transmit = Transmitted frequency (Hz)
+𝑐 = Speed of light (3 × 10^8 m/s)
