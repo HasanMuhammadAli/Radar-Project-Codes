@@ -1,0 +1,14 @@
+Missile Speed Detection Using Doppler Shift – Concept
+This simulation shows how a radar detects a missile's speed using the Doppler effect.
+A missile is moving toward a radar, starting at 300 m/s with 10 m/s² acceleration.
+Doppler shift occurs when radar waves bounce off the moving missile, changing frequency.
+
+Using the formula:
+true_velocities = initial_velocity + acceleration * time_points
+measured_doppler_shifts = (2 * true_velocities * f_transmit) / c
+estimated_velocities = (measured_doppler_shifts * c) / (2 * f_transmit)
+
+
+The program compares:
+Actual missile speed (from physics)
+Estimated speed (from Doppler shift)
