@@ -1,0 +1,15 @@
+Concepts Involved:
+1. Doppler Effect (Radar Version)
+    When a wave-emitting object moves toward an observer, the frequency appears increased. For radar, the Doppler frequency shift is calculated using:
+
+    velocities = initial_velocity + acceleration * time_points
+
+2. Kinematic Equations
+    Used to model motion of the missile with constant acceleration:
+​    
+    Velocity over time:
+    v=vo+at
+
+    Distance from radar (missile is approaching, so distance reduces):
+    distances = initial_distance - (initial_velocity * time_points + 0.5 * acceleration * time_point^2)
+

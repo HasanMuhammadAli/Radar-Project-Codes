@@ -1,3 +1,10 @@
+# Author: Ali Mosin Hasan
+# Date: 05/04/2025
+# Description: This Python simulation models a missile approaching a radar station, 
+#              calculating its distance and Doppler frequency shift over time. 
+#              The simulation uses classical physics and radar principles #              to visualize how a moving object affects the radar signal.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
